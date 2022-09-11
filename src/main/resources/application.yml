@@ -1,0 +1,19 @@
+---
+server:
+    port: 8080
+    
+springdoc:
+    api-docs:
+        path: "/Albums-Api/v3/api-docs"
+    swagger-ui:
+        validator-url: none
+        operations-sorter: alpha
+        tags-sorter: alpha
+        disable-swagger-default-url: true
+        use-root-path: false
+        config-url: "/Albums-Api/v3/api-docs/swagger-config"
+        path: "/Albums-Api/swagger-ui.html"
+        url: "/Albums-Api/v3/api-docs"
+
+
+...
